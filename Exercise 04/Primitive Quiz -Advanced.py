@@ -23,7 +23,6 @@ def quiz():
     
     #Using .strip() to accept answers regardless of the capitalization.
     user_answer = input(question + " " ).strip()
-    
     if user_answer.lower() == answer.lower():
 
         #Checking if the user's answer is in correct, then printing correct.
