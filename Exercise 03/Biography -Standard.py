@@ -10,4 +10,3 @@ dictionary = {
 
 #Printing the values on separate lines using a single `print()` statement.
 print(f"Name: {dictionary['name']}\nHometown: {dictionary['hometown']}\nAge: {dictionary['age']}")
-
