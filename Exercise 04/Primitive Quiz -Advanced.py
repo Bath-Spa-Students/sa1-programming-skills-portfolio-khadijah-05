@@ -7,7 +7,6 @@ def quiz():
  
  #Storing the information in the dictionary.
  question = {
-
     "What is the capital of France?": "Paris",
     "What is the capital of Germany?": "Berlin",
     "What is the capital of Italy?": "Rome",
