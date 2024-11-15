@@ -9,7 +9,6 @@ while True:
  age = input("Enter your age: ")
  if not age.isdigit():
    print ("Invalid, please enter a number for age.")
-   
  else:
    age = int(age)
    break
