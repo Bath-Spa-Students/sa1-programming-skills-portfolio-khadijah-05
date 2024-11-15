@@ -4,7 +4,7 @@
 list_of_the_name = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] 
 
 #Making a string for "Sam".
-searching_for_a_name  = input("Enter the name you are searchinf for: ")
+searching_for_a_name  = input("Enter the name you are searching for: ")
 
 #Using if-else statement to search for "Sam".
 if searching_for_a_name in list_of_the_name:
