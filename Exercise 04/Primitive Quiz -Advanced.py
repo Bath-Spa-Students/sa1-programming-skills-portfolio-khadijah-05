@@ -1,12 +1,8 @@
 #Advanced Requirements
 
 #Extending the program into a quiz that asks for the capitals of 10 European countries.
-
-#Defining the function.
-def quiz():    
- 
- #Storing the information in the dictionary.
- question = {
+#Storing the information in the dictionary.
+question = {
     "What is the capital of France?": "Paris",
     "What is the capital of Germany?": "Berlin",
     "What is the capital of Italy?": "Rome",
@@ -18,7 +14,7 @@ def quiz():
     "What is the capital of Sweden?": "Stockholm",
     "What is the capital of Norway?": "Oslo"
 } 
- for question, answer in question.items():
+for question, answer in question.items():
     
     #Using .strip() to accept answers regardless of the capitalization.
     user_answer = input(question + " " ).strip()
@@ -30,4 +26,3 @@ def quiz():
         #If not correct, printing wrong.
     else:
         print ("Wrong")
-quiz()
