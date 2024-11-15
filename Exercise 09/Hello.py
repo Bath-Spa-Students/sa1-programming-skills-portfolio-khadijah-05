@@ -1,4 +1,4 @@
-#Exercise 9: Hello -
+#Exercise 9: Hello 
 
 #Fill in the blanks in the code below so that the function hello() prints "Hello" to the console.
 
