@@ -12,16 +12,18 @@ question = {
     "What is the capital of Belgium?": "Brussels",
     "What is the capital of Sweden?": "Stockholm",
     "What is the capital of Norway?": "Oslo"
-} 
+    } 
 for question, answer in question.items():
     
-    #Using .strip() to accept answers regardless of the capitalization.
+ #Using .strip() to accept answers regardless of the capitalization.
     user_answer = input(question + " " ).strip()
+
+     #Using if-else statements.
     if user_answer.lower() == answer.lower():
 
-        #Checking if the user's answer is in correct, then printing correct.
+        #Checking if the user's answer is in correct than printing correct.
         print("Correct")
 
-        #If not correct, printing wrong.
+     #If not correct than printing wrong.
     else:
         print ("Wrong")
