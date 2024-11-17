@@ -29,7 +29,7 @@ for c in range(30, 51):
     #To start the new line.
 print("\n")
 
-#Writing a loop that counts down from 50 to 10 in decrements of 2..
+#Writing a loop that counts down from 50 to 10 in decrements of 2.
 print("Counting down from 50 to 10 in decrements of 2:")
 
 #Ranges from 50 to 10, decrementing -2.
