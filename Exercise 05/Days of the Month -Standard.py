@@ -9,6 +9,7 @@ month = int(input("Enter the month number(1-12):"))
 
 #Using an if-else statement.
 if 1 <= month <=12:
+    
     #If the input is valid than printing the number of days in the corresponding month.
     print(f"The number of days in month {month} is {days_of_the_month[month]}.")
     
