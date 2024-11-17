@@ -1,7 +1,9 @@
 #Advanced Requirements
 
 #Asking the user input their name, hometown, and age.
-name = input("Enter your full name: ")  #Ensuring multiple words can be entered for name.
+
+#Ensuring multiple words can be entered for name.
+name = input("Enter your full name: ")  
 hometown = input("Enter your hometown: ")
 
 #Ensuring age is valid.
