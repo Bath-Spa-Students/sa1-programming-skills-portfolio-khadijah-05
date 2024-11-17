@@ -1,5 +1,7 @@
 #Advanced Requirements
+
 #Extending the program into a quiz that asks for the capitals of 10 European countries.
+
 #Storing the information in the dictionary.
 question = {
     "What is the capital of France?": "Paris",
