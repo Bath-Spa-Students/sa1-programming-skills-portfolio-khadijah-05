@@ -1,7 +1,8 @@
 #Exercise 8: Simple Search 
+
 #Writing a program that searches for a specific string within a list of strings. 
 
-#The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", "Dave"). ,
+#The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", "Dave"). 
 list_of_the_name = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] 
 
 #Making a string for "Sam".
