@@ -6,7 +6,7 @@ password = "12345"
 #Asking the user to enter the password.
 asking_the_user_to_enter_the_password = " "
 
-#Maximuming number of attempts
+#Maximuming number of attempts.
 maximum_number_of_attempts = 5
 number_of_attempts_left = maximum_number_of_attempts
 
