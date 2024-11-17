@@ -11,4 +11,4 @@ while asking_the_user_to_enter_the_password != password:
     asking_the_user_to_enter_the_password = input("Enter the password: ")
 
 #Output an appropriate message when the correct password is entered.
-print("Permitted Access")
+print("Access Permitted")
