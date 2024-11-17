@@ -2,10 +2,11 @@
 
 #Storing the information (name, hometown, and age) as key-value pairs in a dictionary.
 dictionary = {
+    
+    #Using variables with appropriate data types for each piece of information.
     "name": "Khadeeja",
     "hometown": "Ajman",
     "age": 18
-    #Using variables with appropriate data types for each piece of information.
 }
 
 #Printing the values on separate lines using a single `print()` statement.
