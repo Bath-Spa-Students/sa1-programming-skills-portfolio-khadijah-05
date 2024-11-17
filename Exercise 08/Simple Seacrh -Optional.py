@@ -1,6 +1,6 @@
-# Optional Requirements
+#Optional Requirements
 
-#The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", "Dave"). ,
+#The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", "Dave"). 
 list_of_the_name = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] 
 
 #Making a string for "Sam".
