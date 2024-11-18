@@ -3,7 +3,7 @@
 #Extending the program into a quiz that asks for the capitals of 10 European countries.
 
 #Storing the information in the dictionary.
-question = {
+storing_the_information = {
     "What is the capital of France?": "Paris",
     "What is the capital of Germany?": "Berlin",
     "What is the capital of Italy?": "Rome",
@@ -15,17 +15,17 @@ question = {
     "What is the capital of Sweden?": "Stockholm",
     "What is the capital of Norway?": "Oslo"
     } 
-for question, answer in question.items():
+for storing_the_information, correct_answer in storing_the_information.items():
     
  #Using .strip() to accept answers regardless of the capitalization.
-    user_answer = input(question + " " ).strip()
+    user_imput = input(storing_the_information + " " ).strip()
 
      #Using if-else statements.
-    if user_answer.lower() == answer.lower():
+    if user_imput.lower() == correct_answer.lower():
 
         #Checking if the user's answer is in correct than printing correct.
-        print("Correct")
+        print("Correct Answer!")
 
      #If not correct than printing wrong.
     else:
-        print ("Wrong")
+        print ("Incorrect Answer!")
