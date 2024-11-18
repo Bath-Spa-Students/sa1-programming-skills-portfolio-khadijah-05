@@ -8,28 +8,28 @@ days_of_the_month = {
 }
 
 #Asking the user to input the month number.
-month = int(input("Enter the month number(1-12):"))
+month_number = int(input("Enter the month number(1-12):"))
 
 #Using an if-else statement.
-if 1 <= month <= 12:
+if 1 <= month_number <= 12:
 
     #Checking for February.
-    if month  == 2:
+    if month_number  == 2:
 
         #Asking the user if the year is a leap year.
         for_leap_year = input ("It is a leap year? (yes/no):").strip().lower()
 
         #If the year is a leap year than printing the number of day in it.
         if for_leap_year == "yes":
-            print(f"The number of days in month February is 29.")
+            print(f"The number of days in 2 month is 29.")
 
          #If not a leap year than also printing the number of day in it.
         else:
-            print(f"The number of days in month February is {days_of_the_month[month]}.")
+            print(f"The number of days in 2 month is {days_of_the_month[month_number]}.")
 
          #If the input is valid than printing the number of days in the corresponding month.        
     else:
-        print(f"The number of days in month {month} is {days_of_the_month[month]}.")
+        print(f"The number of days in month {month_number} is {days_of_the_month[month_number]}.")
 
  #For invalid month number, Asking the user to provide a valid month number.
 else:
