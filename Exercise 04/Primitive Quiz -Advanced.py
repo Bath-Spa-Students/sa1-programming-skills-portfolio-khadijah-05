@@ -4,16 +4,16 @@
 
 #Storing the information in the dictionary.
 storing_the_information = {
-    "What is the capital of France?": "Paris",
-    "What is the capital of Germany?": "Berlin",
-    "What is the capital of Italy?": "Rome",
-    "What is the capital of Spain?": "Madrid",
-    "What is the capital of United Kingdom?": "London",
-    "What is the capital of Portugal?": "Lisbon",
-    "What is the capital of Netherlands?": "Amsterdam",
-    "What is the capital of Belgium?": "Brussels",
-    "What is the capital of Sweden?": "Stockholm",
-    "What is the capital of Norway?": "Oslo"
+    "What is France's capital city?": "Paris",
+    "What is Germany's capital city?": "Berlin",
+    "What is Italy's capital city?": "Rome",
+    "What is Spain's capital city?": "Madrid",
+    "What is United Kingdom's capital city?": "London",
+    "What is Portugal's capital city?": "Lisbon",
+    "What is Netherland's capital city?": "Amsterdam",
+    "What is Belgium's capital city?": "Brussels",
+    "What is Sweden's capital city?": "Stockholm",
+    "What is Norway's capital city?": "Oslo"
     } 
 for storing_the_information, correct_answer in storing_the_information.items():
     
