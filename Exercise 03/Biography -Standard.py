@@ -1,4 +1,4 @@
-# Exercise 3: Biography 
+#Exercise 3: Biography 
 
 #Storing the information (name, hometown, and age) as key-value pairs in a dictionary.
 storing_the_information = {
