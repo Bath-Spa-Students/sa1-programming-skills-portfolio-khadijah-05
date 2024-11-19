@@ -17,11 +17,10 @@ storing_the_information = {
     } 
 for storing_the_information, correct_answer in storing_the_information.items():
     
- #Using .strip() to accept answers regardless of the capitalization.
-    user_imput = input(storing_the_information + " " ).strip()
+    user_input = input(storing_the_information + " " ).strip()
 
      #Using if-else statements.
-    if user_imput.lower() == correct_answer.lower():
+    if user_input.lower() == correct_answer.lower():
 
         #Checking if the user's answer is in correct than printing correct.
         print("Correct Answer!")
