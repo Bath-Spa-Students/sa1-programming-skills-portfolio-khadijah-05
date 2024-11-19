@@ -17,6 +17,7 @@ storing_the_information = {
     } 
 for storing_the_information, correct_answer in storing_the_information.items():
     
+    #Using .strip() to consider the answer correct regardless of the spacing.
     user_input = input(storing_the_information + " " ).strip()
 
      #Using if-else statements.
