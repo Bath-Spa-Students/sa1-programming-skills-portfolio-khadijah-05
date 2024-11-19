@@ -10,7 +10,7 @@ hometown = input("Enter your hometown: ")
 while True:
  age = input("Enter your age: ")
  if not age.isdigit():
-   print ("Invalid, please enter a number for age.")
+   print ("Invalid, please enter age in digits.")
  else:
    age = int(age)
    break
