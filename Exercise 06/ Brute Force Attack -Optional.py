@@ -1,7 +1,7 @@
 #Optional Requirement
 
 #Defining the correct password.
-password = "12345"
+correct_password = "12345"
 
 #Asking the user to enter the password.
 asking_the_user_to_enter_the_password = " "
@@ -11,14 +11,14 @@ maximum_number_of_attempts = 5
 number_of_attempts_left = maximum_number_of_attempts
 
 #Using a while loop to repeatedly ask the user for the password until the correct one is entered.
-while asking_the_user_to_enter_the_password != password and number_of_attempts_left > 0 :
+while asking_the_user_to_enter_the_password != correct_password and number_of_attempts_left > 0 :
     asking_the_user_to_enter_the_password = input(f"You have {number_of_attempts_left} attempts. \nEnter the password:")
     
     #When the user enters the wrong password, informing them of the remaining attempts.
     number_of_attempts_left -=1
 
 #Output an appropriate message when the correct password is entered.
-if asking_the_user_to_enter_the_password == password:
+if asking_the_user_to_enter_the_password == correct_password:
     print("Permitted Access")
     
     #When the maximum number of attempts is reached, informing the user that the authorities have been alerted.
