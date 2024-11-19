@@ -1,6 +1,6 @@
 #Exercise 2: Simple Sums
 
-#Delcaring a variable and initialing it with the integer value 8
+#Delcaring a variable and initialing it with the integer value 8.
 first_number = 8
 
 #Declaring a second variable and initialing it with the integer value 10.

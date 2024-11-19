@@ -19,7 +19,7 @@ while asking_the_user_to_enter_the_password != correct_password and number_of_at
 
 #Output an appropriate message when the correct password is entered.
 if asking_the_user_to_enter_the_password == correct_password:
-    print("Permitted Access")
+    print("Access Permitted")
     
     #When the maximum number of attempts is reached, informing the user that the authorities have been alerted.
 else:
