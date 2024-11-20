@@ -2,30 +2,63 @@
 
 #Extending the program into a quiz that asks for the capitals of 10 European countries.
 
-#Storing the information in the dictionary.
-storing_the_information = {
-    "What is France's capital city?": "Paris",
-    "What is Germany's capital city?": "Berlin",
-    "What is Italy's capital city?": "Rome",
-    "What is Spain's capital city?": "Madrid",
-    "What is United Kingdom's capital city?": "London",
-    "What is Portugal's capital city?": "Lisbon",
-    "What is Netherland's capital city?": "Amsterdam",
-    "What is Belgium's capital city?": "Brussels",
-    "What is Sweden's capital city?": "Stockholm",
-    "What is Norway's capital city?": "Oslo"
-    } 
-for storing_the_information, correct_answer in storing_the_information.items():
-    
-    #Using .lower() to consider the answer correct regardless of the capitalization.
-    user_input = input(storing_the_information + " " )
+#Asking "What is France's capital city?" from the user using if-else statement.
+first_question = input ("What is France's capital city?")
+if first_question.lower() == "paris" :
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
 
-     #Using if-else statements.
-    if user_input.lower() == correct_answer.lower():
+#Asking "What is Germany's capital city?" from the user using if-else statement..
+second_question = input ("What is Germany's capital city?")
+if second_question.lower() == "berlin":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
 
-        #Checking if the user's answer is in correct than printing correct.
-        print("Correct Answer!")
+#Asking "What is Italy's capital city?" from the user using if-else statement..
+third_question = input ("What is Germany's capital city?")
+if third_question.lower() == "rome":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
 
-     #If not correct than printing wrong.
-    else:
-        print ("Incorrect Answer!")
+#Asking "What is Spain's capital city?" from the user using if-else statement..
+fouth_question = input ("What is Spain's capital city??")
+if fouth_question.lower() == "madrid":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
+
+#Asking "What is United Kingdom's capital city?" from the user using if-else statement..
+fifth_question = input ("What is United Kingdom's capital city?")
+if fifth_question.lower() == "london":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
+
+#Asking "What is Portugal's capital city?" from the user using if-else statement..
+sixth_question = input ("What is Portugal's capital city?")
+if sixth_question.lower() == "lisbon":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
+
+#Asking "What is Netherland's capital city?" from the user using if-else statement..
+seventh_question = input ("What is Netherland's capital city?")
+if seventh_question.lower() == "amsterdam":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
+
+#Asking "What is Belgium's capital city?" from the user using if-else statement..
+eighth_question = input ("What is Netherland's capital city?")
+if eighth_question.lower() == "brussels":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
+
+#Asking "What is Sweden's capital city?" from the user using if-else statement..
+ninth_question = input ("What is Sweden's capital city?")
+if ninth_question.lower() == "stockholm":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
+
+
+#Asking "What is Norway's capital city?" from the user using if-else statement..
+tenth_question = input ("What is Norway's capital city?")
+if tenth_question.lower() == "oslo":
+    print("Correct Answer!")
+else: print ("Incorrect Answer!")
