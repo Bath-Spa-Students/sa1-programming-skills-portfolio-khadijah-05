@@ -10,7 +10,7 @@ asking_the_user_to_enter_the_password = " "
 maximum_number_of_attempts = 5
 number_of_attempts_left = maximum_number_of_attempts
 
-#Using a while loop to repeatedly ask the user for the password until the correct one is entered.
+#Using a while loop to repeatedly ask the user for the passwordd.
 while asking_the_user_to_enter_the_password != correct_password and number_of_attempts_left > 0 :
     asking_the_user_to_enter_the_password = input(f"You have {number_of_attempts_left} attempts. \nEnter the password:")
     
