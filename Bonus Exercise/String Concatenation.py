@@ -6,4 +6,4 @@ word2 = "Lab"
 word3 = "1"
 
 #Combining and printing the statement via string concatenation
-print (word1, word2, word3)
+print (word1 + " " + word2 + " "+ word3)
