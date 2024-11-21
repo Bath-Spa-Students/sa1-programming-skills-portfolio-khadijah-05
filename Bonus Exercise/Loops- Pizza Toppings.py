@@ -1,6 +1,6 @@
 #Writing a loop that prompts the user to enter a series of pizza toppings. 
 while True:
-    topping_for_pizza = input("Topping for your pizza or type 'quit' to quit adding topping: ")
+    topping_for_pizza = input("Enter a topping for your pizza or type 'quit' to quit adding topping: ")
 
     #Until they enter a'quit' value. 
     if topping_for_pizza.lower() == 'quit':
