@@ -15,7 +15,7 @@ if second_question.lower() == "berlin":
 else: print ("Incorrect Answer!")
 
 #Asking "What is Italy's capital city?" from the user using if-else statement..
-third_question = input ("What is Germany's capital city?")
+third_question = input ("What is Italy's capital city?")
 if third_question.lower() == "rome":
     print("Correct Answer!")
 else: print ("Incorrect Answer!")
