@@ -1,6 +1,6 @@
 #Exercise 1: Coding is Cool
 
-#Fill in the blanks below.
+#Filling in the blanks below.
 
 #Assiging each word to the respective varaible.
 word1 = "Coding" 
